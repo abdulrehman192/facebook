@@ -34,7 +34,7 @@ class _FBState extends State<FB> with SingleTickerProviderStateMixin {
         actions: <Widget>[
           TextButton(
               onPressed: (){},
-              child: Icon(Icons.search, size: 25,)
+              child: Icon(Icons.search, size: 25,),
           ),
           TextButton(
               onPressed: (){},
