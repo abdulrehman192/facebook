@@ -5,6 +5,7 @@ import 'package:facebook/menu.dart';
 import 'package:facebook/notification.dart';
 import 'package:facebook/videos.dart';
 import 'package:flutter/material.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class FB extends StatefulWidget {
   const FB({Key? key}) : super(key: key);
@@ -34,11 +35,11 @@ class _FBState extends State<FB> with SingleTickerProviderStateMixin {
         actions: <Widget>[
           TextButton(
               onPressed: (){},
-              child: Icon(Icons.search, size: 25,),
+              child: Icon(MdiIcons.facebookMessenger, size: 25,),
           ),
-          TextButton(
+          IconButton(
               onPressed: (){},
-              child: Icon(Icons.message, size: 25,)
+              icon: Icon(MdiIcons.facebookMessenger)
           ),
         ],
 

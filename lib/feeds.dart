@@ -8,7 +8,8 @@ class Feeds extends StatefulWidget {
   _FeedsState createState() => _FeedsState();
 }
 
-class _FeedsState extends State<Feeds> {
+class _FeedsState extends State<Feeds>
+{
   @override
   Widget build(BuildContext context) {
 
