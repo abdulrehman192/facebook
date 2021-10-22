@@ -35,11 +35,12 @@ class _FBState extends State<FB> with SingleTickerProviderStateMixin {
         actions: <Widget>[
           TextButton(
               onPressed: (){},
-              child: Icon(MdiIcons.facebookMessenger, size: 25,),
+              child: Icon(Icons.search, size: 25,),
           ),
           IconButton(
               onPressed: (){},
-              icon: Icon(MdiIcons.facebookMessenger)
+              splashRadius: 25,
+              icon: Icon(MdiIcons.facebookMessenger, size: 25,color: Colors.blue.shade800,)
           ),
         ],
 
